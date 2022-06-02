@@ -1,0 +1,24 @@
+{
+  "extends": ["react-app", "react-app/jest"],
+  "plugins": ["prefer-arrow", "react-prefer-function-component"],
+  "rules": {
+    "no-console": "warn",
+    "prefer-const": "error",
+    "quotes": ["error", "single"],
+    "jsx-quotes": ["error", "prefer-single"],
+    "indent": ["warn", 2],
+    "max-len": ["error", { "code": 120 }],
+    "comma-dangle": ["error", { "objects": "always-multiline" }],
+    "semi": ["error", "always"],
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "internal", "parent", "sibling", "index", "object", "type"]
+      }
+    ],
+    "import/no-default-export": "error",
+    "prefer-arrow/prefer-arrow-functions": "error",
+    "react-prefer-function-component/react-prefer-function-component": "error",
+    "arrow-body-style": ["warn", "as-needed"]
+  }
+}
