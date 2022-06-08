@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button in auth page correct styles: variant=cancel 1`] = `
+<div>
+  <div
+    class="react-ripples"
+    style="position: relative; display: inline-flex; overflow: hidden;"
+  >
+    <button
+      class="sc-bczRLJ YFRPM"
+    >
+      Войти
+    </button>
+    <s
+      style="position: absolute; border-radius: 50%; opacity: 0; width: 35px; height: 35px; transform: translate(-50%, -50%); pointer-events: none;"
+    />
+  </div>
+</div>
+`;
+
+exports[`button in auth page correct styles: variant=cancel outlined 1`] = `
+<div>
+  <div
+    class="react-ripples"
+    style="position: relative; display: inline-flex; overflow: hidden;"
+  >
+    <button
+      class="sc-bczRLJ dfDxFa"
+    >
+      Войти
+    </button>
+    <s
+      style="position: absolute; border-radius: 50%; opacity: 0; width: 35px; height: 35px; transform: translate(-50%, -50%); pointer-events: none;"
+    />
+  </div>
+</div>
+`;
+
+exports[`button in auth page correct styles: variant=submit 1`] = `
+<div>
+  <div
+    class="react-ripples"
+    style="position: relative; display: inline-flex; overflow: hidden;"
+  >
+    <button
+      class="sc-bczRLJ jsEiLx"
+    >
+      Войти
+    </button>
+    <s
+      style="position: absolute; border-radius: 50%; opacity: 0; width: 35px; height: 35px; transform: translate(-50%, -50%); pointer-events: none;"
+    />
+  </div>
+</div>
+`;
+
+exports[`button in auth page correct styles: variant=submit outlined 1`] = `
+<div>
+  <div
+    class="react-ripples"
+    style="position: relative; display: inline-flex; overflow: hidden;"
+  >
+    <button
+      class="sc-bczRLJ geUmsL"
+    >
+      Войти
+    </button>
+    <s
+      style="position: absolute; border-radius: 50%; opacity: 0; width: 35px; height: 35px; transform: translate(-50%, -50%); pointer-events: none;"
+    />
+  </div>
+</div>
+`;
+
+exports[`button in auth page correct styles: variant=success 1`] = `
+<div>
+  <div
+    class="react-ripples"
+    style="position: relative; display: inline-flex; overflow: hidden;"
+  >
+    <button
+      class="sc-bczRLJ dbzJHP"
+    >
+      Войти
+    </button>
+    <s
+      style="position: absolute; border-radius: 50%; opacity: 0; width: 35px; height: 35px; transform: translate(-50%, -50%); pointer-events: none;"
+    />
+  </div>
+</div>
+`;
+
+exports[`button in auth page correct styles: variant=success outlined 1`] = `
+<div>
+  <div
+    class="react-ripples"
+    style="position: relative; display: inline-flex; overflow: hidden;"
+  >
+    <button
+      class="sc-bczRLJ hJaVMZ"
+    >
+      Войти
+    </button>
+    <s
+      style="position: absolute; border-radius: 50%; opacity: 0; width: 35px; height: 35px; transform: translate(-50%, -50%); pointer-events: none;"
+    />
+  </div>
+</div>
+`;
