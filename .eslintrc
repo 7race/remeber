@@ -1,14 +1,13 @@
 {
   "extends": ["react-app", "react-app/jest"],
-  "plugins": ["prefer-arrow", "react-prefer-function-component"],
+  "plugins": ["prefer-arrow", "react-prefer-function-component", "jest-dom", "testing-library"],
   "rules": {
     "no-console": "warn",
     "prefer-const": "error",
     "quotes": ["error", "single"],
     "jsx-quotes": ["error", "prefer-single"],
-    "indent": ["warn", 2],
     "max-len": ["error", { "code": 120 }],
-    "comma-dangle": ["error", { "objects": "always-multiline" }],
+    "comma-dangle": ["error", { "objects": "always-multiline", "arrays": "always-multiline" }],
     "semi": ["error", "always"],
     "import/order": [
       "error",
@@ -20,5 +19,14 @@
     "prefer-arrow/prefer-arrow-functions": "error",
     "react-prefer-function-component/react-prefer-function-component": "error",
     "arrow-body-style": ["warn", "as-needed"]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.stories.tsx"],
+      "rules": {
+        "import/no-default-export": ["off"],
+        "import/no-anonymous-default-export": ["off"]
+      }
+    }
+  ]
 }

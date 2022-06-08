@@ -1,3 +1,4 @@
 import React from 'react';
+import { AuthPage } from './pages/AuthPage/AuthPage';
 
-export const App = () => <h1>hi</h1>;
+export const App = () => <AuthPage />;
