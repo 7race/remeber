@@ -1,7 +1,11 @@
-import { Button } from '../../atoms/Button/Button';
+import { Button } from '@atoms/Button/Button';
+import { P } from '@atoms/P/P';
 
 export const AuthPage = () => (
-  <Button variant='success' outlined>
-    Войти
-  </Button>
+  <>
+    <P type='h1'>hello</P>
+    <Button variant='success' outlined>
+      Войти
+    </Button>
+  </>
 );

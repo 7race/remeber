@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.4.3",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.1",
@@ -19,12 +20,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject",
     "pre-commit": "eslint .",
-    "pre-push": "eslint . --max-warnings=0 && react-scripts test",
+    "pre-push": "eslint . --max-warnings=0 && craco test -u --watchAll=false",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
@@ -41,6 +42,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
     "@storybook/addon-actions": "^6.5.7",
     "@storybook/addon-essentials": "^6.5.7",
     "@storybook/addon-interactions": "^6.5.7",
@@ -60,6 +64,7 @@
     "eslint-plugin-testing-library": "^5.5.1",
     "husky": "^8.0.1",
     "prop-types": "^15.8.1",
+    "ts-jest": "^28.0.4",
     "webpack": "^5.73.0"
   },
   "eslintConfig": {
@@ -73,5 +78,6 @@
         }
       }
     ]
-  }
+  },
+  "cracoConfig": "craco.config.js"
 }
