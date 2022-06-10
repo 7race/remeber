@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`input component correct styles for input type password 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ iYnQMY"
+  >
+    <input
+      class="sc-gsnTZi eztgPp"
+      type="password"
+    />
+    <img
+      alt="closed eye"
+      src="eye-slash.svg"
+    />
+  </div>
+</div>
+`;
+
+exports[`input component correct styles for input type text 1`] = `
+<div>
+  <input
+    class="sc-gsnTZi eztgPp"
+    type="text"
+  />
+</div>
+`;
+
+exports[`input component hide/show password by click on eye icon 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ iYnQMY"
+  >
+    <input
+      class="sc-gsnTZi eztgPp"
+      type="password"
+    />
+    <img
+      alt="closed eye"
+      src="eye-slash.svg"
+    />
+  </div>
+</div>
+`;
+
+exports[`input component hide/show password by click on eye icon 2`] = `
+<div>
+  <div
+    class="sc-bczRLJ iYnQMY"
+  >
+    <input
+      class="sc-gsnTZi eztgPp"
+    />
+    <img
+      alt="opened eye"
+      src="eye.svg"
+    />
+  </div>
+</div>
+`;
