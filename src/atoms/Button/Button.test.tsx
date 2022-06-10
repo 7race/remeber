@@ -1,14 +1,7 @@
-import { render, screen } from '../../tests-utils';
-import { AuthPage } from '../../pages/AuthPage/AuthPage';
+import { render } from '@tests-utils';
 import { Button } from './Button';
 
-describe('button in auth page', () => {
-  it('render', () => {
-    render(<AuthPage />);
-    const btn = screen.getByRole('button', { name: 'Войти' });
-    expect(btn).toBeInTheDocument();
-  });
-
+describe('Button component', () => {
   it('correct styles: variant=success', () => {
     const { container } = render(<Button variant='success'>Войти</Button>);
     expect(container).toMatchSnapshot();

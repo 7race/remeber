@@ -49,6 +49,7 @@ export const Button = styled.button<TButtonProps>`
   border: none;
   cursor: pointer;
   border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
   color: ${({ theme }) => theme.colors.white};
   ${({ variant }) => variants[variant]};
   @media ${({ theme }) => theme.media.mobile} {
@@ -62,9 +63,11 @@ export const Button = styled.button<TButtonProps>`
   @media ${({ theme }) => theme.media.notebook} {
     width: 412px;
     height: 64px;
+    font-size: 24px;
   }
   @media ${({ theme }) => theme.media.desktop} {
     width: 412px;
     height: 64px;
+    font-size: 24px;
   }
 `;

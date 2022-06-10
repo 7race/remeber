@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`button in auth page correct styles: variant=cancel 1`] = `
+exports[`Button component correct styles: variant=cancel 1`] = `
 <div>
   <div
     class="react-ripples"
     style="position: relative; display: inline-flex; overflow: hidden;"
   >
     <button
-      class="sc-bczRLJ YFRPM"
+      class="sc-bczRLJ gUMiyN"
     >
       Войти
     </button>
@@ -18,14 +18,14 @@ exports[`button in auth page correct styles: variant=cancel 1`] = `
 </div>
 `;
 
-exports[`button in auth page correct styles: variant=cancel outlined 1`] = `
+exports[`Button component correct styles: variant=cancel outlined 1`] = `
 <div>
   <div
     class="react-ripples"
     style="position: relative; display: inline-flex; overflow: hidden;"
   >
     <button
-      class="sc-bczRLJ dfDxFa"
+      class="sc-bczRLJ hDIoDT"
     >
       Войти
     </button>
@@ -36,14 +36,14 @@ exports[`button in auth page correct styles: variant=cancel outlined 1`] = `
 </div>
 `;
 
-exports[`button in auth page correct styles: variant=submit 1`] = `
+exports[`Button component correct styles: variant=submit 1`] = `
 <div>
   <div
     class="react-ripples"
     style="position: relative; display: inline-flex; overflow: hidden;"
   >
     <button
-      class="sc-bczRLJ jsEiLx"
+      class="sc-bczRLJ gqSprs"
     >
       Войти
     </button>
@@ -54,14 +54,14 @@ exports[`button in auth page correct styles: variant=submit 1`] = `
 </div>
 `;
 
-exports[`button in auth page correct styles: variant=submit outlined 1`] = `
+exports[`Button component correct styles: variant=submit outlined 1`] = `
 <div>
   <div
     class="react-ripples"
     style="position: relative; display: inline-flex; overflow: hidden;"
   >
     <button
-      class="sc-bczRLJ geUmsL"
+      class="sc-bczRLJ dDvEaG"
     >
       Войти
     </button>
@@ -72,14 +72,14 @@ exports[`button in auth page correct styles: variant=submit outlined 1`] = `
 </div>
 `;
 
-exports[`button in auth page correct styles: variant=success 1`] = `
+exports[`Button component correct styles: variant=success 1`] = `
 <div>
   <div
     class="react-ripples"
     style="position: relative; display: inline-flex; overflow: hidden;"
   >
     <button
-      class="sc-bczRLJ dbzJHP"
+      class="sc-bczRLJ dNaXhK"
     >
       Войти
     </button>
@@ -90,14 +90,14 @@ exports[`button in auth page correct styles: variant=success 1`] = `
 </div>
 `;
 
-exports[`button in auth page correct styles: variant=success outlined 1`] = `
+exports[`Button component correct styles: variant=success outlined 1`] = `
 <div>
   <div
     class="react-ripples"
     style="position: relative; display: inline-flex; overflow: hidden;"
   >
     <button
-      class="sc-bczRLJ hJaVMZ"
+      class="sc-bczRLJ iPkPGg"
     >
       Войти
     </button>

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@tests-utils": ["tests-utils"],
+      "@tests-utils/*": ["tests-utils/*"],
+      "@atoms": ["atoms"],
+      "@atoms/*": ["atoms/*"]
+    }
+  }
+}

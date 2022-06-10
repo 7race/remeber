@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`P component correct styles: type=h1 1`] = `
+<div>
+  <p
+    class="sc-bczRLJ kSucuR"
+    type="h1"
+  >
+    hello
+  </p>
+</div>
+`;
+
+exports[`P component correct styles: type=h2 1`] = `
+<div>
+  <p
+    class="sc-bczRLJ iwYdEx"
+    type="h2"
+  >
+    hello
+  </p>
+</div>
+`;
+
+exports[`P component correct styles: type=small1 1`] = `
+<div>
+  <p
+    class="sc-bczRLJ clFAbO"
+    type="small1"
+  >
+    hello
+  </p>
+</div>
+`;
+
+exports[`P component correct styles: type=small2 1`] = `
+<div>
+  <p
+    class="sc-bczRLJ cGGDap"
+    type="small2"
+  >
+    hello
+  </p>
+</div>
+`;
