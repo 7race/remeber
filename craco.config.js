@@ -6,7 +6,10 @@ module.exports = {
   webpack: {
     alias: {
       '@tests-utils': path.resolve(__dirname, 'src/tests-utils'),
-      '@atoms': path.resolve(__dirname, 'src/atoms'),
+      '@atoms': path.resolve(__dirname, 'src/view/atoms'),
+      '@molecules': path.resolve(__dirname, 'src/view/molecules'),
+      '@pages': path.resolve(__dirname, 'src/view/pages'),
+      '@static': path.resolve(__dirname, 'src/view/static'),
     },
   },
   jest: {
