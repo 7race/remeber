@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form in auth page should have correct styles 1`] = `
+<div>
+  <form
+    aria-label="form"
+    class="sc-eCYdqJ fIvkZv"
+  >
+    <p
+      class="sc-bczRLJ Gujvk"
+      type="h1"
+    >
+      Вход
+    </p>
+    <input
+      class="sc-dkzDqf dVlRoD"
+      placeholder="Логин"
+    />
+    <div
+      class="sc-gsnTZi dGUFFC"
+    >
+      <input
+        class="sc-dkzDqf dVlRoD"
+        placeholder="Пароль"
+        type="password"
+      />
+      <img
+        alt="closed eye"
+        src="eye-slash.svg"
+      />
+    </div>
+    <div
+      class="react-ripples"
+      style="position: relative; display: inline-flex; overflow: hidden;"
+    >
+      <button
+        class="sc-hKMtZM blpuEy"
+      >
+        Войти
+      </button>
+      <s
+        style="position: absolute; border-radius: 50%; opacity: 0; width: 35px; height: 35px; transform: translate(-50%, -50%); pointer-events: none;"
+      />
+    </div>
+  </form>
+</div>
+`;

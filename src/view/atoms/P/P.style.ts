@@ -6,7 +6,7 @@ const pTypesTablet = {
     font-size: 40px;
   `,
   h2: css`
-    font-size: 20px;
+    font-size: 30px;
   `,
   small1: css`
     font-size: 16px;
@@ -18,7 +18,7 @@ const pTypesTablet = {
 
 const pTypesNotebook = {
   h1: css`
-    font-size: 70px;
+    font-size: 50px;
   `,
   h2: css`
     font-size: 50px;
@@ -33,9 +33,7 @@ const pTypesNotebook = {
 
 export const P = styled.p<TP>`
   font-family: 'Tai Heritage Pro', serif;
-  @media ${({ theme }) => theme.media.mobile}, ${({ theme }) => theme.media.tablet} {
-    ${({ type }) => pTypesTablet[type]}
-  }
+  ${({ type }) => pTypesTablet[type]}
   @media ${({ theme }) => theme.media.notebook} {
     ${({ type }) => pTypesNotebook[type]}
   }

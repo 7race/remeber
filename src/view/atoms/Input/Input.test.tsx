@@ -21,4 +21,9 @@ describe('input component', () => {
     await user.click(closedEye);
     expect(container).toMatchSnapshot();
   });
+
+  it('correct styles of variant grey', () => {
+    const { container } = render(<Input variant='grey' />);
+    expect(container).toMatchSnapshot();
+  });
 });

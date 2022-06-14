@@ -7,7 +7,7 @@ exports[`Button component correct styles: variant=cancel 1`] = `
     style="position: relative; display: inline-flex; overflow: hidden;"
   >
     <button
-      class="sc-bczRLJ gUMiyN"
+      class="sc-bczRLJ kzKWGJ"
     >
       Войти
     </button>
@@ -25,7 +25,7 @@ exports[`Button component correct styles: variant=cancel outlined 1`] = `
     style="position: relative; display: inline-flex; overflow: hidden;"
   >
     <button
-      class="sc-bczRLJ hDIoDT"
+      class="sc-bczRLJ bgXdgT"
     >
       Войти
     </button>
@@ -43,7 +43,7 @@ exports[`Button component correct styles: variant=submit 1`] = `
     style="position: relative; display: inline-flex; overflow: hidden;"
   >
     <button
-      class="sc-bczRLJ gqSprs"
+      class="sc-bczRLJ jHWjXU"
     >
       Войти
     </button>
@@ -61,7 +61,7 @@ exports[`Button component correct styles: variant=submit outlined 1`] = `
     style="position: relative; display: inline-flex; overflow: hidden;"
   >
     <button
-      class="sc-bczRLJ dDvEaG"
+      class="sc-bczRLJ exHnfW"
     >
       Войти
     </button>
@@ -79,7 +79,7 @@ exports[`Button component correct styles: variant=success 1`] = `
     style="position: relative; display: inline-flex; overflow: hidden;"
   >
     <button
-      class="sc-bczRLJ dNaXhK"
+      class="sc-bczRLJ bAzGHW"
     >
       Войти
     </button>
@@ -97,7 +97,7 @@ exports[`Button component correct styles: variant=success outlined 1`] = `
     style="position: relative; display: inline-flex; overflow: hidden;"
   >
     <button
-      class="sc-bczRLJ iPkPGg"
+      class="sc-bczRLJ bQFhus"
     >
       Войти
     </button>

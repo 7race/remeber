@@ -3,10 +3,10 @@
 exports[`input component correct styles for input type password 1`] = `
 <div>
   <div
-    class="sc-bczRLJ iYnQMY"
+    class="sc-bczRLJ dkamqk"
   >
     <input
-      class="sc-gsnTZi eztgPp"
+      class="sc-gsnTZi hsxpLY"
       type="password"
     />
     <img
@@ -20,8 +20,15 @@ exports[`input component correct styles for input type password 1`] = `
 exports[`input component correct styles for input type text 1`] = `
 <div>
   <input
-    class="sc-gsnTZi eztgPp"
-    type="text"
+    class="sc-gsnTZi hsxpLY"
+  />
+</div>
+`;
+
+exports[`input component correct styles of variant grey 1`] = `
+<div>
+  <input
+    class="sc-gsnTZi fqhQFY"
   />
 </div>
 `;
@@ -29,10 +36,10 @@ exports[`input component correct styles for input type text 1`] = `
 exports[`input component hide/show password by click on eye icon 1`] = `
 <div>
   <div
-    class="sc-bczRLJ iYnQMY"
+    class="sc-bczRLJ dkamqk"
   >
     <input
-      class="sc-gsnTZi eztgPp"
+      class="sc-gsnTZi hsxpLY"
       type="password"
     />
     <img
@@ -46,10 +53,10 @@ exports[`input component hide/show password by click on eye icon 1`] = `
 exports[`input component hide/show password by click on eye icon 2`] = `
 <div>
   <div
-    class="sc-bczRLJ iYnQMY"
+    class="sc-bczRLJ dkamqk"
   >
     <input
-      class="sc-gsnTZi eztgPp"
+      class="sc-gsnTZi hsxpLY"
     />
     <img
       alt="opened eye"
