@@ -51,21 +51,14 @@ export const Button = styled.button<TButtonProps>`
   border-radius: 8px;
   font-family: 'Roboto', sans-serif;
   color: ${({ theme }) => theme.colors.white};
+  width: 320px;
+  height: 48px;
   ${({ variant }) => variants[variant]};
-  @media ${({ theme }) => theme.media.mobile} {
-    width: 320px;
-    height: 48px;
-  }
   @media ${({ theme }) => theme.media.tablet} {
     width: 384px;
     height: 48px;
   }
   @media ${({ theme }) => theme.media.notebook} {
-    width: 412px;
-    height: 64px;
-    font-size: 24px;
-  }
-  @media ${({ theme }) => theme.media.desktop} {
     width: 412px;
     height: 64px;
     font-size: 24px;

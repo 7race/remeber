@@ -10,6 +10,11 @@ export default {
       options: ['text', 'password'],
       control: { type: 'radio' },
     },
+    variant: {
+      type: 'string',
+      options: ['grey', 'default'],
+      control: { type: 'radio' },
+    },
   },
 } as ComponentMeta<typeof Input>;
 

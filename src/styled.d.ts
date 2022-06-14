@@ -7,6 +7,8 @@ interface ITheme {
     green: string;
     violet: string;
     red: string;
+    lightGrey: string;
+    grey: string;
   };
   media: {
     mobile: string;
