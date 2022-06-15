@@ -1,3 +1,3 @@
-import { AuthPage } from '@pages/AuthPage';
+import { WelcomePage } from '@pages/WelcomePage';
 
-export const App = () => <AuthPage />;
+export const App = () => <WelcomePage />;

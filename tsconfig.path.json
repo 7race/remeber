@@ -11,7 +11,9 @@
       "@pages": ["view/pages"],
       "@pages/*": ["view/pages/*"],
       "@static": ["view/static"],
-      "@static/*": ["view/static/*"]
+      "@static/*": ["view/static/*"],
+      "@hooks": ["hooks"],
+      "@hooks/*": ["hooks/*"]
     }
   }
 }

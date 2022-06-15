@@ -10,9 +10,11 @@ module.exports = {
       '@molecules': path.resolve(__dirname, 'src/view/molecules'),
       '@pages': path.resolve(__dirname, 'src/view/pages'),
       '@static': path.resolve(__dirname, 'src/view/static'),
+      '@hooks': path.resolve(__dirname, 'src/hooks'),
     },
   },
   jest: {
+    setupFiles: ['jest-canvas-mock'],
     configure: {
       preset: 'ts-jest',
       moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
