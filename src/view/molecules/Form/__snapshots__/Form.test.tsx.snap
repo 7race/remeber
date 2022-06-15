@@ -4,30 +4,45 @@ exports[`Form in auth page should have correct styles 1`] = `
 <div>
   <form
     aria-label="form"
-    class="sc-eCYdqJ fIvkZv"
+    class="sc-eCYdqJ hPBytf"
   >
     <p
       class="sc-bczRLJ Gujvk"
-      type="h1"
     >
       Вход
     </p>
-    <input
-      class="sc-dkzDqf dVlRoD"
-      placeholder="Логин"
-    />
-    <div
-      class="sc-gsnTZi dGUFFC"
-    >
+    <div>
       <input
         class="sc-dkzDqf dVlRoD"
-        placeholder="Пароль"
-        type="password"
+        placeholder="Логин"
+        value=""
       />
-      <img
-        alt="closed eye"
-        src="eye-slash.svg"
-      />
+      <p
+        class="sc-bczRLJ fUulwP text-error"
+      >
+         
+      </p>
+    </div>
+    <div>
+      <div
+        class="sc-gsnTZi dGUFFC"
+      >
+        <input
+          class="sc-dkzDqf dVlRoD"
+          placeholder="Пароль"
+          type="password"
+          value=""
+        />
+        <img
+          alt="closed eye"
+          src="eye-slash.svg"
+        />
+      </div>
+      <p
+        class="sc-bczRLJ fUulwP text-error"
+      >
+         
+      </p>
     </div>
     <div
       class="react-ripples"
@@ -35,6 +50,7 @@ exports[`Form in auth page should have correct styles 1`] = `
     >
       <button
         class="sc-hKMtZM blpuEy"
+        type="submit"
       >
         Войти
       </button>

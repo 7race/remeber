@@ -9,7 +9,7 @@ const outlinedBtns: TButtonType = {
     color: ${({ theme }) => theme.colors.black};
     background-color: ${({ theme }) => theme.colors.white};
   `,
-  outlineSubmit: css`
+  outlineSecondary: css`
     border: 2px solid ${({ theme }) => theme.colors.violet};
     color: ${({ theme }) => theme.colors.black};
     background-color: ${({ theme }) => theme.colors.white};
@@ -25,7 +25,7 @@ const paintedOverBtns: TButtonType = {
   success: css`
     background-color: ${({ theme }) => theme.colors.green};
   `,
-  submit: css`
+  secondary: css`
     background-color: ${({ theme }) => theme.colors.violet};
   `,
   cancel: css`
@@ -37,8 +37,8 @@ const variants = {
   success: css<TButtonProps>`
     ${({ outlined }) => (outlined ? outlinedBtns.outlineSuccess : paintedOverBtns.success)};
   `,
-  submit: css<TButtonProps>`
-    ${({ outlined }) => (outlined ? outlinedBtns.outlineSubmit : paintedOverBtns.submit)};
+  secondary: css<TButtonProps>`
+    ${({ outlined }) => (outlined ? outlinedBtns.outlineSecondary : paintedOverBtns.secondary)};
   `,
   cancel: css<TButtonProps>`
     ${({ outlined }) => (outlined ? outlinedBtns.outlineCancel : paintedOverBtns.cancel)};

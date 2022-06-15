@@ -12,27 +12,26 @@ export const Form = styled.form`
     width: 100%;
     background-color: white;
   }
-  & > input {
-    margin-bottom: 40px;
-  }
-  & div:first-of-type {
-    width: 100%;
-    margin-bottom: 60px;
-  }
   & button {
     width: 100%;
+  }
+  & .text-error {
+    color: ${({ theme }) => theme.colors.red};
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+
+  & > div:not(:last-of-type) {
+    margin-bottom: 25px;
   }
 
   @media ${({ theme }) => theme.media.notebook} {
     background-color: ${({ theme }) => theme.colors.white};
     padding: 60px 50px;
     width: 512px;
-    height: 550px;
     & input {
       background-color: ${({ theme }) => theme.colors.lightGrey};
-    }
-    & div:first-of-type {
-      margin-bottom: 80px;
     }
   }
 `;

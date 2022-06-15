@@ -8,6 +8,7 @@ exports[`input component correct styles for input type password 1`] = `
     <input
       class="sc-gsnTZi hsxpLY"
       type="password"
+      value=""
     />
     <img
       alt="closed eye"
@@ -21,6 +22,7 @@ exports[`input component correct styles for input type text 1`] = `
 <div>
   <input
     class="sc-gsnTZi hsxpLY"
+    value=""
   />
 </div>
 `;
@@ -29,6 +31,7 @@ exports[`input component correct styles of variant grey 1`] = `
 <div>
   <input
     class="sc-gsnTZi fqhQFY"
+    value=""
   />
 </div>
 `;
@@ -41,6 +44,7 @@ exports[`input component hide/show password by click on eye icon 1`] = `
     <input
       class="sc-gsnTZi hsxpLY"
       type="password"
+      value=""
     />
     <img
       alt="closed eye"
@@ -57,6 +61,7 @@ exports[`input component hide/show password by click on eye icon 2`] = `
   >
     <input
       class="sc-gsnTZi hsxpLY"
+      value=""
     />
     <img
       alt="opened eye"

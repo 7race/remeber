@@ -12,5 +12,5 @@ export const Default = Template.bind({});
 
 Default.args = {
   children: 'hello',
-  type: 'h1',
+  variant: 'h1',
 };

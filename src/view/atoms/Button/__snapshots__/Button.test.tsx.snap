@@ -36,7 +36,43 @@ exports[`Button component correct styles: variant=cancel outlined 1`] = `
 </div>
 `;
 
-exports[`Button component correct styles: variant=submit 1`] = `
+exports[`Button component correct styles: variant=secondary 1`] = `
+<div>
+  <div
+    class="react-ripples"
+    style="position: relative; display: inline-flex; overflow: hidden;"
+  >
+    <button
+      class="sc-bczRLJ dpUmxH"
+    >
+      Войти
+    </button>
+    <s
+      style="position: absolute; border-radius: 50%; opacity: 0; width: 35px; height: 35px; transform: translate(-50%, -50%); pointer-events: none;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Button component correct styles: variant=secondary outlined 1`] = `
+<div>
+  <div
+    class="react-ripples"
+    style="position: relative; display: inline-flex; overflow: hidden;"
+  >
+    <button
+      class="sc-bczRLJ dpUmxH"
+    >
+      Войти
+    </button>
+    <s
+      style="position: absolute; border-radius: 50%; opacity: 0; width: 35px; height: 35px; transform: translate(-50%, -50%); pointer-events: none;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Button component correct styles: variant=secondary 1`] = `
 <div>
   <div
     class="react-ripples"
@@ -54,7 +90,7 @@ exports[`Button component correct styles: variant=submit 1`] = `
 </div>
 `;
 
-exports[`Button component correct styles: variant=submit outlined 1`] = `
+exports[`Button component correct styles: variant=secondary outlined 1`] = `
 <div>
   <div
     class="react-ripples"

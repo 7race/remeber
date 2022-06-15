@@ -16,14 +16,14 @@ describe('Button component', () => {
     expect(container).toMatchSnapshot();
   });
 
-  it('correct styles: variant=submit', () => {
-    const { container } = render(<Button variant='submit'>Войти</Button>);
+  it('correct styles: variant=secondary', () => {
+    const { container } = render(<Button variant='secondary'>Войти</Button>);
     expect(container).toMatchSnapshot();
   });
 
-  it('correct styles: variant=submit outlined', () => {
+  it('correct styles: variant=secondary outlined', () => {
     const { container } = render(
-      <Button variant='submit' outlined>
+      <Button variant='secondary' outlined>
         Войти
       </Button>
     );
