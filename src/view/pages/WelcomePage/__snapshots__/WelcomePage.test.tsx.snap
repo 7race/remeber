@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`welcome page correct display 1`] = `
+<div>
+  <canvas
+    height="768"
+    style="z-index: 2; position: absolute; pointer-events: none; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+    width="1024"
+  />
+  <div
+    class="sc-dkzDqf kPZTnG"
+  >
+    <p
+      class="sc-bczRLJ Gujvk"
+    >
+      Welcome
+    </p>
+    <img
+      alt="cat"
+      src="cat.png"
+    />
+    <div
+      class="react-ripples"
+      style="position: relative; display: inline-flex; overflow: hidden;"
+    >
+      <button
+        class="sc-gsnTZi fJxKCx"
+      >
+        Log out
+      </button>
+      <s
+        style="position: absolute; border-radius: 50%; opacity: 0; width: 35px; height: 35px; transform: translate(-50%, -50%); pointer-events: none;"
+      />
+    </div>
+  </div>
+</div>
+`;

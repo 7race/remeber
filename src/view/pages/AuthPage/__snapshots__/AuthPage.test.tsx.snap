@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`auth page correct display 1`] = `
+<div>
+  <div
+    class="sc-jSMfEi jrJNuz"
+  >
+    <form
+      aria-label="form"
+      class="sc-eCYdqJ hPBytf"
+    >
+      <p
+        class="sc-bczRLJ Gujvk"
+      >
+        Вход
+      </p>
+      <div>
+        <input
+          class="sc-dkzDqf dVlRoD"
+          placeholder="Логин"
+          value=""
+        />
+        <p
+          class="sc-bczRLJ fUulwP text-error"
+        >
+           
+        </p>
+      </div>
+      <div>
+        <div
+          class="sc-gsnTZi dGUFFC"
+        >
+          <input
+            class="sc-dkzDqf dVlRoD"
+            placeholder="Пароль"
+            type="password"
+            value=""
+          />
+          <img
+            alt="closed eye"
+            src="eye-slash.svg"
+          />
+        </div>
+        <p
+          class="sc-bczRLJ fUulwP text-error"
+        >
+           
+        </p>
+      </div>
+      <div
+        class="react-ripples"
+        style="position: relative; display: inline-flex; overflow: hidden;"
+      >
+        <button
+          class="sc-hKMtZM blpuEy"
+          type="submit"
+        >
+          Войти
+        </button>
+        <s
+          style="position: absolute; border-radius: 50%; opacity: 0; width: 35px; height: 35px; transform: translate(-50%, -50%); pointer-events: none;"
+        />
+      </div>
+    </form>
+  </div>
+</div>
+`;
