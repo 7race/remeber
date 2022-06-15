@@ -12,6 +12,7 @@
     "@types/react-dom": "^18.0.5",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-hook-form": "^7.32.1",
     "react-ripples": "^2.2.1",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.5",
@@ -26,8 +27,8 @@
     "eject": "react-scripts eject",
     "pre-commit": "eslint .",
     "pre-push": "eslint . --max-warnings=0 && craco test -u --watchAll=false",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "sb": "start-storybook -p 6006 -s public",
+    "build-sb": "build-storybook -s public"
   },
   "browserslist": {
     "production": [

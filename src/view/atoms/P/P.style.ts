@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 import { TP } from './TPProps';
 
-const pTypesTablet = {
+const pVariantsTablet = {
   h1: css`
     font-size: 40px;
   `,
@@ -16,7 +16,7 @@ const pTypesTablet = {
   `,
 };
 
-const pTypesNotebook = {
+const pVariantsNotebook = {
   h1: css`
     font-size: 50px;
   `,
@@ -24,17 +24,17 @@ const pTypesNotebook = {
     font-size: 50px;
   `,
   small1: css`
-    font-size: 30px;
+    font-size: 18px;
   `,
   small2: css`
-    font-size: 20px;
+    font-size: 16px;
   `,
 };
 
 export const P = styled.p<TP>`
   font-family: 'Tai Heritage Pro', serif;
-  ${({ type }) => pTypesTablet[type]}
+  ${({ variant }) => pVariantsTablet[variant]}
   @media ${({ theme }) => theme.media.notebook} {
-    ${({ type }) => pTypesNotebook[type]}
+    ${({ variant }) => pVariantsNotebook[variant]}
   }
 `;

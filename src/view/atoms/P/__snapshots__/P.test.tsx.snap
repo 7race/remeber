@@ -4,7 +4,6 @@ exports[`P component correct styles: type=h1 1`] = `
 <div>
   <p
     class="sc-bczRLJ Gujvk"
-    type="h1"
   >
     hello
   </p>
@@ -15,7 +14,6 @@ exports[`P component correct styles: type=h2 1`] = `
 <div>
   <p
     class="sc-bczRLJ eJTLmz"
-    type="h2"
   >
     hello
   </p>
@@ -25,8 +23,7 @@ exports[`P component correct styles: type=h2 1`] = `
 exports[`P component correct styles: type=small1 1`] = `
 <div>
   <p
-    class="sc-bczRLJ bXYhRV"
-    type="small1"
+    class="sc-bczRLJ fUulwP"
   >
     hello
   </p>
@@ -36,8 +33,7 @@ exports[`P component correct styles: type=small1 1`] = `
 exports[`P component correct styles: type=small2 1`] = `
 <div>
   <p
-    class="sc-bczRLJ bRYrXu"
-    type="small2"
+    class="sc-bczRLJ bpdgdH"
   >
     hello
   </p>
